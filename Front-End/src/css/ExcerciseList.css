@@ -1,0 +1,35 @@
+h1 {
+    -webkit-background-clip: text;
+    color: black; /* Set text color to black */
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    -webkit-text-stroke: .5px rgba(0, 0, 0, 0.5); /* Darker outline for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Emphasizing shadow */
+
+}
+
+.add {
+    background-color: greenyellow;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.add:hover,
+.add:active {
+    background-color: rgb(213, 255, 151);
+}
+
+.not-logged {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+}
+
+.two-buttons {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

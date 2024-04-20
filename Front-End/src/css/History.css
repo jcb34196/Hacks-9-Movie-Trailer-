@@ -1,0 +1,11 @@
+.adds {
+    background-color: #05FA58;
+    margin-bottom: 10px;
+    text-align: center;
+   min-width: 600px;
+}
+
+.adds:active,
+.adds:hover {
+    background-color: #7df5a5;
+}

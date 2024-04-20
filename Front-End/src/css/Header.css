@@ -1,0 +1,36 @@
+.top-menu {
+    background-color: #8a888880;
+    border-width: 1px;
+    border-color: black;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.click-contain {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-button {
+    width: 33.3%;
+    border-color: black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-weight: 800;
+}
+
+.main-button:hover,
+.main-button:active {
+    background-color: gray;
+}
+
+.top-menu img {
+    width: 40px;
+    align-content: center;
+    border-width: 0px;
+    box-shadow: none;
+}

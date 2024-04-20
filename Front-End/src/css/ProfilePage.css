@@ -1,0 +1,63 @@
+.profile {
+    background-color: #D9D9D9;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    padding-top: 10px;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.notlogged {
+    text-align:center;
+}
+
+.logout {
+    text-align: center;
+    background-color: red;
+    margin-top: 15px;
+}
+
+.logout:hover,
+.logout:active {
+    background-color: rgb(253, 111, 111);
+}
+
+.register {
+    background-color: #fac320;
+    margin-right: 30px;   
+}
+
+.register:hover,
+.register:active {
+    background-color: #ffdb6e;
+}
+
+.getlogged {
+    background-color: blue;
+    margin-left: 30px;
+}
+
+.getlogged:hover,
+.getlogged:active {
+    background-color: rgb(100, 100, 255);
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+h6 {
+    margin-right: 10px; /* Optional: Add space between label and value */
+    font-weight: bold;
+    font-size: 14px;
+    width: 120px; /* Adjust the width based on your preference */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

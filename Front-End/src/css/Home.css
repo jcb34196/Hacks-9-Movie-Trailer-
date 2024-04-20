@@ -1,0 +1,8 @@
+.home {
+    background-color: purple;
+}
+
+.home:active,
+.home:hover {
+    background-color: rgb(128, 82, 128);
+}
